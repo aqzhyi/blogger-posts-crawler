@@ -57,7 +57,7 @@ function getPostsList(bloggerId, qs = {}, opts = {}) {
         address: item.address,
         body: item.content,
         cover: _.get(item, 'images[0].url', ''),
-        datetime: item.published,
+        published: item.published,
         images: _.pluck(item.images, 'url'),
         title: item.title,
         url: item.url,
