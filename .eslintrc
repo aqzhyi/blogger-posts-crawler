@@ -23,6 +23,8 @@ rules:
   no-use-before-define: [2, "nofunc"]
   quotes: [2, "single"]
 
+  no-undef: 2
+
 env:
   browser: false
   es6: true
